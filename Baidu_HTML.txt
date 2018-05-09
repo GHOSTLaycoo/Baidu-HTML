@@ -1,0 +1,129 @@
+<html>
+<style>
+.bg-primary {
+float:left;
+height:5%;
+width:95%;
+font-size:90%;
+background-color:rgba(0,0,0,0.1);
+text-align:right;
+line-height:35px;
+margin-left:-10px;
+margin-right:-9px;
+margin-top:-9px;
+border:0px;
+}
+
+.main{
+width:100%;
+}
+
+.mm{
+margin:auto 5px;
+color:black;
+}
+.yy{
+font-size:90%;
+height:5%;
+text-align:right;
+float:right;
+padding-right:18px;
+color:black;
+background-color:#3385FF;
+margin-top:-9px;
+border:1px;
+margin-right:-9px;
+margin-left:10px;
+cursor:hand;
+line-height:35px;
+width:5%;
+}
+.yy:hover{
+background-color:#C0C0C0;
+}
+
+#input1{
+height:36px; 
+width:541px;
+padding-left:5px;
+font-size:16px;
+}
+
+#button1{
+height:36px;
+width:100px;
+outline:none;
+cursor:hand;
+border:1px;
+margin-left:-9px;
+color:wihite;
+background:#3385FF;
+}
+
+.sp{
+width:500px;
+height:200px;
+margin-top:400px;
+text-align:center;
+}
+.ah{
+text-decoration: none;
+color:gray;
+}
+.ah:hover{
+text-decoration: underline;
+}
+
+#img1{
+vertical-align:middle;
+}
+</style>
+
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=0.5, maximum-scale=2.0, user-scalable=yes" />
+<link rel="shortcut icon" type="image/x-icon" href="1.ico">
+<title>百度一下，你就知道</title>
+
+<div class="main">
+<div class="bg-primary">
+<a href="http://news.baidu.com" class="mm" >新闻</a>
+<a href="http://www.hao123.com"  class="mm">hao123</a>
+<a href="http://map.baidu.com" class="mm">地图</a>
+<a href="http://v.baidu.com" class="mm">视频</a>
+<a href="http://tieba.baidu.com"  class="mm">贴吧</a>
+<a href="http://xueshu.baidu.com" class="mm">学术</a>
+<a href="http://i.baidu.com/" class="mm">忍need</a>
+<a href="#" class="mm">设置</a>
+</div>
+<div class="yy" class="bg-primary">
+<a href="http://www.baidu.com/more/" style="text-decoration: none">更多产品</a>
+</div>
+</div>
+</head>
+
+</br></br>
+</br>
+</br></br>
+<body>
+
+<div align="center">
+<img src="https://www.baidu.com/img/bd_logo1.png" width=270 height=129></img>
+</div>
+<div align="center">
+<form action="http://www.baidu.com/baidu" target="_blank">
+<input type="text" name=word id="input1">
+<input type="submit" id="button1" value="百度一下">
+</form>
+</div>
+<center>
+<div class="sp">
+<span style="font-size:13px;color:gray;">&copy;2015 Baidu 使用百度前必读 意见反馈 京ICP证030173号</span>
+</br>
+<span style="font-size:13px;color:gray;">
+<img src="https://pic.baike.soso.com/p/20140613/20140613153844-1512049944.jpg" width=15px; height=17px; id="img1"><a href="https://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11000002000001" class="ah"> 京公网安备11000002000001号</span>
+
+</div>
+</center>
+</body>
+
+</html>
